@@ -52,3 +52,153 @@ table {
   display: table;
   clear: both;
 }
+
+body {
+    background-image: url('../images/bg.jpg');
+  }
+
+header {
+  background-color: #FFFFFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 10px #232324;
+}
+
+#logo_section {
+  position: relative;
+  top: 15px;
+}
+
+#Layer_1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .Layer_2 {
+  position: relative;
+  top: -20px;
+}
+
+#nav{
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #3A3A3C;
+  text-align: center;
+  box-shadow: 2px 2px 2px #762714;
+  padding: 20px;
+}
+
+
+li.nav_item {
+  display: inline;
+  text-decoration: none;
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+a {
+  color: #818285;
+  margin: 2px;
+
+}
+
+a:link { 
+  text-decoration: none;
+}
+
+p {
+  box-shadow: 2px 5px 5px #873612;
+  background-color: #FFFFFF;
+  padding: 10px;
+  font-size: 10px;
+  float: left;
+  font-family: Lato;
+  vertical-align: bottom;
+}
+
+.img {
+  max-width: 20%;
+  float: left;
+  margin-right: 10px;
+
+}
+
+.title {
+  font-family: Oswald;
+  color: #3A3A3C;
+  text-align: left;
+  font-size: 15px;
+}
+
+.info {
+  font-family: Oswald;
+  font-size: 10px;
+  color: #818285;
+  text-align: left;
+}
+
+p {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 7px;
+}
+
+p#video1 {
+  margin-top: 30px;
+}
+
+p#video2 {
+
+}
+
+p#video3 {
+
+}
+
+p#video4 {
+
+}
+
+footer {
+  background-color: #3A3A3C;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 3;
+  margin-top: 20px;
+  height: 20px;
+  width: 100%;
+  box-shadow: 10px 10px 10px #762714;
+  padding: 20px;
+}
+
+.buttons {
+  display: inline-block;
+  margin-left: 45%;
+  /*margin-right: auto;*/
+
+  /*border: 5px solid red;*/
+}
+
+#IG {
+  margin-left: 10px;
+}
+
+
+/* DESKTOP ONLY */
+@media only screen and (min-width: 769px) {
+
+}
+/* TABLET ONLY */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+}
+
+/* MOBILE ONLY */
+@media only screen and (max-width: 480px){
+
+}

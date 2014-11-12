@@ -55,14 +55,14 @@ table {
 
 body {
     background-image: url('../images/bg.jpg');
+    width: 100%;
   }
 
 header {
   background-color: #FFFFFF;
+  margin: 0px auto;
+  width: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 10px 10px 10px #232324;
 }
 
 #logo_section {
@@ -82,6 +82,7 @@ header {
 }
 
 #nav{
+  display: block;
   padding-bottom: 30px;
   text-align: center;
   background-color: #3A3A3C;
@@ -113,11 +114,14 @@ a:link {
 p {
   box-shadow: 2px 5px 5px #873612;
   background-color: #FFFFFF;
-  padding: 10px;
+  /*padding: 10px;*/
   font-size: 10px;
   float: left;
   font-family: Lato;
   vertical-align: bottom;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 7px;
 }
 
 .img {
@@ -141,38 +145,20 @@ p {
   text-align: left;
 }
 
-p {
-  margin-right: 150px;
-  margin-left: 150px;
-  margin-bottom: 7px;
-}
-
 p#video1 {
   margin-top: 30px;
-}
-
-p#video2 {
-
-}
-
-p#video3 {
-
-}
-
-p#video4 {
-
 }
 
 footer {
   background-color: #3A3A3C;
   display: block;
-  position: absolute;
-  left: 0;
+  /*position: absolute;*/
+  /*left: 0;*/
   bottom: 3;
   margin-top: 20px;
   height: 20px;
   width: 100%;
-  box-shadow: 10px 10px 10px #762714;
+  box-shadow: -10px -2px 10px #762714;
   padding: 20px;
 }
 

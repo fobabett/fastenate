@@ -100,6 +100,7 @@ li.nav_item {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 100;
+  letter-spacing: 1px;
 }
 
 a:hover {
@@ -116,17 +117,26 @@ a:link {
   text-decoration: none;
 }
 
+#content {
+  max-width: 60%;
+  margin: auto;
+  display: block;
+}
+
 p {
   box-shadow: 2px 5px 5px #873612;
   background-color: #FFFFFF;
   /*padding: 10px;*/
   font-size: 10px;
-  float: left;
+  float: right;
   font-family: Lato;
   vertical-align: bottom;
-  margin-right: 160px;
-  margin-left: 160px;
+ /* margin-right: 160px;
+  margin-left: 160px;*/
   margin-bottom: 7px;
+  box-sizing: border-box;
+  letter-spacing: .5px;
+  display: inline-block;
 }
 
 p:hover {
@@ -134,7 +144,8 @@ p:hover {
 }
 
 .img {
-  max-width: 20%;
+  width: 25%;
+  height: auto;
   float: left;
   margin-right: 10px;
 
@@ -202,5 +213,94 @@ footer {
 
 /* MOBILE ONLY */
 @media only screen and (max-width: 480px){
+  header {
+  background-color: #FFFFFF;
+  margin: 0px auto;
+  width: 100%;
+  display: block;
+  /*width: 760px;*/
+  }
 
+  #logo_section {
+    position: relative;
+    top: 15px;
+    float: left;
+  }
+
+  #Layer_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ .Layer_2 {
+  visibility: hidden;
+  }
+  #nav {
+  display: block;
+  text-align: center;
+  background-color: #3A3A3C;
+  box-shadow: 2px 2px 2px #762714;
+  padding: 4px;
+  margin-bottom: -25px;
+  }
+  li.nav_item {
+    border-right: 1.5px solid #818285;
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  #content {
+  max-width: 96%;
+  margin: auto;
+  display: block;
+  }
+
+p {
+  box-shadow: 2px 5px 5px #873612;
+  background-color: #FFFFFF;
+  font-size: 0px;
+  font-family: Lato;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  letter-spacing: .5px;
+  display: inline-block;
+  }
+
+p:hover {
+  border: 0px solid #F19600;
+  }
+
+.img {
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  }
+
+.title {
+  font-family: Oswald;
+  color: #3A3A3C;
+  text-align: left;
+  font-size: 12px;
+  margin-left: -7px;
+  font-weight: 100;
+  }
+
+.info {
+  font-family: Lato;
+  font-size: 9px;
+  color: #818285;
+  text-align: left;
+  }
+  footer {
+  visibility: hidden;
+  }
+
+  a:hover {
+  color: #818285;
+  }
 }

@@ -102,6 +102,10 @@ li.nav_item {
   font-weight: 100;
 }
 
+a:hover {
+  color: #E9571F;
+}
+
 a {
   color: #818285;
   margin: 2px;
@@ -123,6 +127,10 @@ p {
   margin-right: 160px;
   margin-left: 160px;
   margin-bottom: 7px;
+}
+
+p:hover {
+  border: 3px solid #F19600;
 }
 
 .img {
@@ -171,6 +179,11 @@ footer {
   /*margin-right: auto;*/
 
   /*border: 5px solid red;*/
+}
+
+#FB:hover {
+  color: #F15A29;
+  pointer-events: all;
 }
 
 #IG {

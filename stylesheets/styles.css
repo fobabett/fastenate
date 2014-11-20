@@ -161,6 +161,11 @@ li.nav_item a:link {
   background-color: #FFFFFF;
   padding: 10px;
   margin: 10px;
+  border: 4px solid #FFFFFF;
+}
+
+.videos:hover {
+  border: 4px solid #E97946;
 }
 
 .video_img {
